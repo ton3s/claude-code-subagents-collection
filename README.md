@@ -4,7 +4,7 @@ A comprehensive collection of specialized AI subagents for [Claude Code](https:/
 
 ## Overview
 
-This repository contains 33 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed.
+This repository contains 36 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed.
 
 ## Quick Start
 
@@ -25,6 +25,8 @@ cp claude-code-subagents/*.md ~/.claude/agents/
 - **frontend-developer** - Build Next.js applications with shadcn/ui, React Server Components, and Tailwind CSS
 - **mobile-developer** - Develop React Native or Flutter apps with native integrations
 - **graphql-architect** - Design GraphQL schemas, resolvers, and federation
+- **directus-developer** - Build and customize Directus applications with extensions, hooks, and API integrations
+- **drupal-developer** - Build and customize Drupal applications with custom modules, themes, and integrations
 
 ### 💻 Language Specialists
 - **python-pro** - Write idiomatic Python code with advanced features and optimizations
@@ -59,6 +61,7 @@ cp claude-code-subagents/*.md ~/.claude/agents/
 - **accessibility-specialist** - Ensure web applications meet WCAG 2.1 AA/AAA standards
 - **blockchain-developer** - Develop smart contracts, DeFi protocols, and Web3 applications
 - **game-developer** - Build games with Unity, Unreal Engine, or web technologies
+- **ui-ux-designer** - Design user interfaces and experiences with modern design principles and accessibility standards
 
 ### 💰 Crypto Trading
 - **crypto-trader** - Build cryptocurrency trading systems and integrate with exchange APIs
