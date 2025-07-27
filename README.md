@@ -4,7 +4,7 @@ A comprehensive collection of specialized AI subagents for [Claude Code](https:/
 
 ## Overview
 
-This repository contains 36 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed.
+This repository contains 41 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed.
 
 ## Quick Start
 
@@ -24,6 +24,9 @@ cp claude-code-subagents/*.md ~/.claude/agents/
 - **backend-architect** - Design RESTful APIs, microservice boundaries, and database schemas
 - **frontend-developer** - Build Next.js applications with shadcn/ui, React Server Components, and Tailwind CSS
 - **mobile-developer** - Develop React Native or Flutter apps with native integrations
+- **ios-developer** - Develop native iOS applications with Swift, SwiftUI, and iOS frameworks
+- **android-developer** - Develop native Android applications with Kotlin, Java, and Android SDK
+- **roblox-developer** - Develop Roblox games and experiences using Lua scripting and Roblox Studio
 - **graphql-architect** - Design GraphQL schemas, resolvers, and federation
 - **directus-developer** - Build and customize Directus applications with extensions, hooks, and API integrations
 - **drupal-developer** - Build and customize Drupal applications with custom modules, themes, and integrations
@@ -38,6 +41,7 @@ cp claude-code-subagents/*.md ~/.claude/agents/
 - **devops-troubleshooter** - Debug production issues, analyze logs, and fix deployment failures
 - **deployment-engineer** - Configure CI/CD pipelines, Docker containers, and cloud deployments
 - **cloud-architect** - Design AWS/Azure/GCP infrastructure and optimize cloud costs
+- **azure-expert** - Design and secure Azure cloud infrastructure with Microsoft Entra and Azure security services
 - **database-optimizer** - Optimize SQL queries, design efficient indexes, and handle database migrations
 
 ### 🛡️ Quality & Security
@@ -50,7 +54,8 @@ cp claude-code-subagents/*.md ~/.claude/agents/
 ### 📊 Data & AI
 - **data-scientist** - Data analysis expert for SQL queries, BigQuery operations, and data insights
 - **data-engineer** - Build ETL pipelines, data warehouses, and streaming architectures
-- **ai-engineer** - Build LLM applications, RAG systems, and prompt pipelines
+- **ai-engineer** - Build LLM applications, RAG systems, MCP clients/servers, and multi-agent systems
+- **azure-ai-developer** - Build Azure AI applications using Semantic Kernel and Azure AI services
 - **ml-engineer** - Implement ML pipelines, model serving, and feature engineering
 
 ### 🎯 Specialized Domains
