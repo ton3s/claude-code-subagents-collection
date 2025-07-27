@@ -4,7 +4,7 @@ A comprehensive collection of specialized AI subagents for [Claude Code](https:/
 
 ## Overview
 
-This repository contains 41 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed.
+This repository contains 43 specialized subagents that extend Claude Code's capabilities. Each subagent is an expert in a specific domain, automatically invoked based on context or explicitly called when needed.
 
 ## Quick Start
 
@@ -41,6 +41,7 @@ cp claude-code-subagents/*.md ~/.claude/agents/
 - **devops-troubleshooter** - Debug production issues, analyze logs, and fix deployment failures
 - **deployment-engineer** - Configure CI/CD pipelines, Docker containers, and cloud deployments
 - **cloud-architect** - Design AWS/Azure/GCP infrastructure and optimize cloud costs
+- **aws-expert** - Design and secure AWS cloud infrastructure with IAM and AWS security services
 - **azure-expert** - Design and secure Azure cloud infrastructure with Microsoft Entra and Azure security services
 - **database-optimizer** - Optimize SQL queries, design efficient indexes, and handle database migrations
 
@@ -55,6 +56,7 @@ cp claude-code-subagents/*.md ~/.claude/agents/
 - **data-scientist** - Data analysis expert for SQL queries, BigQuery operations, and data insights
 - **data-engineer** - Build ETL pipelines, data warehouses, and streaming architectures
 - **ai-engineer** - Build LLM applications, RAG systems, MCP clients/servers, and multi-agent systems
+- **aws-ai-developer** - Build AWS AI applications using Amazon Bedrock, SageMaker, and AWS AI services
 - **azure-ai-developer** - Build Azure AI applications using Semantic Kernel and Azure AI services
 - **ml-engineer** - Implement ML pipelines, model serving, and feature engineering
 
